@@ -87,7 +87,7 @@ This dataset contains 145449 training set and 19998 testing set.
 **Snopes Debunking information dataset**  (200MB)  
 The debunking information is retrieved from Snopes.com, and it contains the fact-checking news from 2017/01 to 2018/12, and it has 4532 debunking information.
 
-**Fake News vs Satire: A Dataset and Analysis **  (7MB)     
+**Fake News vs Satire: A Dataset and Analysis**  (7MB)     
 The dataset includes full text of the articles, labels indicating their type (fake news or satire) and themes, and debunking articles for all fake news. It contain 493 articles with two classes - rumor(292) and non-rumor(201). 
 
 **Twitter Debunking Information Dataset**  (2.6GB)  
