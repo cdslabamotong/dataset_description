@@ -40,7 +40,7 @@ This dataset is a massive analysis of Reddit's entire publicly available comment
 **PHEME-R: Analyzing How People Orient to and Spread Rumours in Social Media by Lookingat Conversational Threads.**  
 This directory contains the PHEME rumour dataset collected and annotated within the journalism use case of the project. These rumours are associated with 9 different breaking news. It was created for the analysis of social media rumours, and contains Twitter conversations which are initiated by a rumourous tweet. The dataset contains 330 conversational threads (297 in English, and 33 in German), with a folder for each thread.
 
-**PHEME.All-in-one: Multi-task Learning for Rumour Verification. **   
+**PHEME.All-in-one: Multi-task Learning for Rumour Verification.**   
 PHEME dataset of rumours and non-rumours related to nine events, each updated with veracity information for each of the rumours. This dataset contains 3 levels of annotation.  First, each thread is annotated as either rumour or non-rumour; second, rumours are labeled as either true, false or unverified. And third, a subset (threads usedin RumourEval) is annotated for stance classification at the tweet level through crowd-sourcing. In summary, it contains totally 6425 threads, 105354 tweets, 2402 rumors, 4023 non-rumors.
 
 **Getting Real about Fake News - Kaggle Dataset**  
