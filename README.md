@@ -40,13 +40,13 @@ This dataset is a massive analysis of Reddit's entire publicly available comment
 **PHEME-R: Analyzing How People Orient to and Spread Rumours in Social Media by Lookingat Conversational Threads.**  (574MB)  
 This directory contains the PHEME rumour dataset collected and annotated within the journalism use case of the project. These rumours are associated with 9 different breaking news. It was created for the analysis of social media rumours, and contains Twitter conversations which are initiated by a rumourous tweet. The dataset contains 330 conversational threads (297 in English, and 33 in German), with a folder for each thread.
 
-**PHEME.All-in-one: Multi-task Learning for Rumour Verification. **   (46.5MB)  
+**PHEME.All-in-one: Multi-task Learning for Rumour Verification.**   (46.5MB)  
 PHEME dataset of rumours and non-rumours related to nine events, each updated with veracity information for each of the rumours. This dataset contains 3 levels of annotation.  First, each thread is annotated as either rumour or non-rumour; second, rumours are labeled as either true, false or unverified. And third, a subset (threads usedin RumourEval) is annotated for stance classification at the tweet level through crowd-sourcing. In summary, it contains totally 6425 threads, 105354 tweets, 2402 rumors, 4023 non-rumors.
 
 **Getting Real about Fake News - Kaggle Dataset**  (56.7MB)  
 The dataset contains text and metadata from 244 websites and represents 12,999 posts in total from the past 30 days. Each website was labeled according to the BS Detector as documented here. Data sources that were missing a label were simply assigned a label of "bs". There are (ostensibly) no genuine, reliable, or trustworthy news sources represented in this dataset (so far).
 
-**This Just In: Fake News Packs a Lot in Title, Uses Simpler, Repetitive Content in Text Body, More Similar to Satire than Real News**   (2MB)  
+**This Just In: Fake News Packs a Lot in Title, Uses Simpler, Repetitive Content in Text Body, More Similar to Satire than Real News**(2MB)    
 This repository contains two independent news datasets:  
 1. Buzzfeed Political News Data:
 	* News originally analyzed by Craig Silverman of Buzzfeed News in article entitled " This Analysis Shows How Viral Fake Election News Stories Outperformed Real News On Facebook."
@@ -81,6 +81,11 @@ The dataset was constructed in two stages:
 - Claim Labeling: Classifying whether a claim is supported or refuted by Wikipedia and selecting the evidence for it, or deciding there’s not enough information to make a decision.
 
 This dataset contains 145449 training set and 19998 testing set.
+
+**PHEME rumour scheme dataset: journalism use case** (570MB)  
+This is a dataset collected and annotated within the journalism use case of the PHEME FP7 project. These rumours are associated with 9 different breaking news. It was created for the analysis of social media rumours, and contains Twitter conversations which are initiated by a rumourous tweet; the conversations include tweets responding to those rumourous tweets. These tweets have been annotated for support, certainty, and evidentiality. This dataset contains 330 conversational threads (297 in English, and 33 in German) with a folder for each thread. More details can be found in the README file.      
+Reference: http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0150989  
+
 
 ## Debunking Information Data (2.7GB)
 
