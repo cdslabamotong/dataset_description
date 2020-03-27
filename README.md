@@ -24,6 +24,10 @@ This dataset comes from Harvard database and contains the raw RF measurements, p
 **Stuck in the Matrix**  (20GB)   
 This dataset is a massive analysis of Reddit's entire publicly available comment dataset. The dataset is ~1.7 billion JSON objects complete with the comment, score, author, subreddit, position in comment tree and other fields that are available through Reddit's API. Total Comments amount is 53,851,542 from 2014 to 2017.
 
+**CORONA VIRUS (COVID-19) TWEETS DATASET** (81.7MB)  
+This dataset includes CSV files which contain the tweet IDs.    
+Schema of the CSV files: First column: tweet ID, Second column: Sentiment score for the particular tweet.  
+
 **Social Discussion Forum Data (Reddit)**  (1.6GB)  
  comprehensive dataset of topic stream data and associated reply data from Reddit (retrieved by Pushshift API). It contains three sub-datasets retrieved from two subforums. Both main threads and associated replies have the same data format: ID, title, URL, author, score, text, and num_replies. 
  - NBA Dataset (2018/04 - 2018/06): 63577 main threads and 4.6 million associated replies
